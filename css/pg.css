@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#nav{
+    background-image: linear-gradient(-90deg,#fc8e93,#37507a);
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    padding: 15px;
+}
+
+
+nav h1 {
+    color:#fff;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    margin-right: 150px;
+    
+}
+
+ul{
+     
+    list-style: none;
+    padding-top: 0;
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 80px;
+  
+}  
+ul li a{
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.938rem;
+  
+}
+.icones{
+
+     margin-top: 0.625rem;
+     text-decoration-line: none;       
+     display: flex;
+     gap: 0.75rem; 
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+       
+ }
+ 	
+
+Nav ul li a{  
+    
+    padding-right: 10px;
+      
+}
+#itensNav{
+
+    color: #fff
+
+}
+#itensNav:hover{
+  
+    color: #ced4da;
+}
+
+#sec1 {
+    background-image: linear-gradient(#fc8e93,#f26a8c);
+    height: auto;
+}
+.button{
+
+    border-radius: 50px 50px ;
+    font-weight: bold;
+    color: #6c757d;
+    
+}
+.button:hover {
+    background-image: linear-gradient(#37507a,#f26a8c);
+    color: #fff;
+    border-radius: 50px 50px 50px;
+    border-style: none;
+}
+
+#sec1 h1 {
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+#sec1 h4 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#sec2 h2 {
+    color:#37507a;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+ 
+#sec2 h4 {
+
+    color: #37507a;
+    font-size: 25px;
+    font-weight: 100;
+}
+ 
+#sec3 {
+    background-image: linear-gradient(-90deg, #f26a8c,#fc8e93);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+ 
+#sec3 h2 {
+    color:#fff;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+ 
+#sec3 p {
+    color: #f26a8c;
+    font-weight: bold;
+}
+ 
+.icone {
+    font-size:40px;
+    color: #f26a8c;
+    
+}
+ 
+.caixa3 {
+    background: #fff;
+    text-align: center;
+    margin-right: 30px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+#sec4 {
+    
+    padding-top: 150px;
+    padding-bottom: 0px;
+    background: #fff;
+    margin-left: -5px;
+    height: auto;
+    
+}
+.imgsec4{
+
+    width: 550px;
+    height: 600px;
+    margin-left: 10%;
+    
+}
+#sec4 h1{
+    
+    text-align: center;
+    color: #37507a;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+
+#formulario{
+
+    background-color: #fc8e93bb;
+    padding: 50px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+   
+}
+#sec4 h2{
+    
+    font-family: 'Bebas Neue', cursive;
+    text-align:center;
+    color: #fff;   
+}
+.container1{
+
+    display: flex;
+    justify-content: center;
+
+}
+input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+textarea{
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    border-style: none;   
+    
+}
+select{
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("../img/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0%) center;
+}
+
+input[type="submit"]{
+
+    color: #fff;
+    background-image: linear-gradient(#fc8e93,#f26a8c);
+    font-weight: bold;
+    border-radius: 50px 50px ;
+    padding: 5px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    
+}
+input[type="submit"]:hover {
+
+    background-image: linear-gradient(#37507a,#f26a8c);
+    color: #fff;
+    border-radius: 50px 50px ;
+       
+}
+
+footer{
+    padding: 60px;
+    background-image: linear-gradient(-90deg,#fc8e93,#37507a);
+
+}
+footer h1{
+
+    color:#fff;   
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+}
+footer ul{
+
+    margin-left: 90%
+}
+footer ul li a{
+
+    margin-left: 10px;
+}
+footer h6{
+
+    color: #fff;
+    
+
+}
+#redes{
+
+    margin-left: 850px;
+    
+}
